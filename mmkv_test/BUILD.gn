@@ -2,5 +2,8 @@ executable("mmkv_test") {
   sources = [ "main.cc" ]
 
   include_dirs = [ "//3rdparty/MMKV/Core" ]
-  deps = [ "//3rdparty/MMKV/POSIX/src:mmkv" ]
+  deps = [
+    "//3rdparty/MMKV/Core:core",
+    "//3rdparty/MMKV/POSIX/src:mmkv",
+  ]
 }
