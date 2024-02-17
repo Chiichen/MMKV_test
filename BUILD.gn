@@ -1,0 +1,6 @@
+group("mmkv_test") {
+  deps = [
+    "//3rdparty/MMKV/POSIX/src:mmkv",
+    "//mmkv_test:mmkv_test",
+  ]
+}
